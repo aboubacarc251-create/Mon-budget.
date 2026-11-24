@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "MON BUDGET",
+    "slug": "mon-budget",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mabudget.app"
+    },
+    "android": {
+      "package": "com.mabudget.app",
+      "permissions": [
+        "USE_BIOMETRIC"
+      ]
+    },
+    "plugins": [
+      "expo-local-authentication",
+      "expo-secure-store",
+      "expo-sqlite"
+    ]
+  }
+}
